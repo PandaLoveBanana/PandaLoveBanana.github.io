@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ferrofluid on Ayuki Projects</title>
+    <link>https://pandalovebanana.github.io/tags/ferrofluid/</link>
+    <description>Recent content in Ferrofluid on Ayuki Projects</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Nov 2018 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://pandalovebanana.github.io/tags/ferrofluid/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Week 02:磁悬浮时钟构想 </title>
+      <link>https://pandalovebanana.github.io/post/week02/</link>
+      <pubDate>Sun, 11 Nov 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://pandalovebanana.github.io/post/week02/</guid>
+      <description> 先分享一下最近看的资料
+磁流体
+半导体PN结二极管原理讲解 干货
+眼神交互磁流体装置
+我想做什么  产品描述：磁流体电子闹钟 技术点 ：磁流体、机械装置控制运动、电子电路产生电流、3D模型制作、 用户 ：有艺术、科技追求的高端用户 参考： Ferrolic公司全球范围制作24台，每台售价8000$
+ V1.0 技术方案 1.磁流体制作 主要原料：打印机墨粉/铁粉、油、水 参考教学：https://www.instructables.com/id/Magnetic-Fluid/
+2.电生磁实验 3.利用电路板控制多个磁场开关强弱 步骤： 1.制作PBC板 2.将磁场均匀分布并连线 3.Aduino控制 通过编写程序，控制线圈电流，已达到控制磁流体移动的效果。 4.外观设计 可实现性  初级版本教程：Build your own Digital Ferrofluid Display! Part 1 有认识的Arduino老师，可解决烧写电路板问题 清华美院有同学做过类似磁流体产品 淘宝丰富的原料。  </description>
+    </item>
+    
+  </channel>
+</rss>

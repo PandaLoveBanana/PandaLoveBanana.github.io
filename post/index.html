@@ -118,18 +118,13 @@
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Post</span>
     <h1 class="f3 near-black">
-      <a href="/post/week02/" class="link black dim">
-        Week 02:磁悬浮时钟构想 
+      <a href="/post/week04/" class="link black dim">
+        Week 04:3D建模与切割(fusion360)
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-       先分享一下最近看的资料
-磁流体
-半导体PN结二极管原理讲解 干货
-眼神交互磁流体装置
-我想做什么  产品描述：磁流体电子闹钟 技术点 ：磁流体、机械装置控制运动、电子电路产生电流、3D模型制作、 用户 ：有艺术、科技追求的高端用户 参考： Ferrolic公司全球范围制作24台，每台售价8000$
- V1.0 技术方案 1.磁流体制作 主要原料：打印机墨粉/铁粉、油、水 参考教学：https://www.instructables.com/id/Magnetic-Fluid/
-2.电生磁实验 3.利用电路板控制多个磁场开关强弱 步骤： 1.制作PBC板 2.将磁场均匀分布并连线 3.Aduino控制 通过编写程序，控制线圈电流，已达到控制磁流体移动的效果。 4.外观设计 可实现性  初级版本教程：Build your own Digital Ferrofluid Display! Part 1 有认识的Arduino老师，可解决烧写电路板问题 清华美院有同学做过类似磁流体产品 淘宝丰富的原料。  
+      Computer-Controlled Cutting计算机控制切割 课件链接
+工具 刀片切割机 Rolan公司的Vinyl Cutter Machine聚乙烯切割机 Zund瑞士公司的数字切割机 otherlab自造的切割机 ultrasonic 中国学生做的各种东西吧。。 laser激光切割机 plasma等离子切割 等离子切割是利用高温等离子电弧的热量使工件切口处的金属部分或局部熔化(和蒸发)，并借高速等离子的动量排除熔融金属以形成切口的一种加工方法。 Waterjet 超高压水刀的基本技术既简单又极为复杂。当水被加压至60,000 PSI（或以上）并且从一小开孔通过时， 它可切割各种软质材料包括食品， 纸张， 纸尿片，橡胶及泡棉。 而当少量的砂如石榴砂被加入水射流中与其混合时， 所产生之加砂水射流， 实际上可切割任何硬质材料包括金属， 复合材料， 石材及玻璃。 超高压水刀也可使用于各种不同的工业表面处理应用如船身清洗及汽车喷漆设备清洗。 hot wire wire edm 线切割 #####大项目Ferrofluid进展 #####寻找一款适合的CAD软件之采坑路
     </div>
   </div>
 </div>
@@ -139,21 +134,32 @@
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Post</span>
     <h1 class="f3 near-black">
-      <a href="/post/ch01/" class="link black dim">
-        Ch01: Git&#43;Hugo&#43;Atom=部署自己的网站 
+      <a href="/post/week03/" class="link black dim">
+        Week 03:搭建个人博客(Git&#43;Hugo&#43;Atom) 
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      本文零基础讲授Git如何安装？ 如何安装Hugo网站开发软件？ 部署到git服务器？ 购买域名并部署？
-01.Git Git教程-廖雪峰 ( 史上最浅显易懂的Git教程。看过此教程的请忽略以下内容) Git是一个版本控制软件，打个比喻：我们写毕业论文时，不是一次就能写完的，要几周的时间去构思、写框架、增写删改等，正常人都会隔几天就存一个版本，如果哪天不幸删错了重要内容，再找到昨天写的文档上改，这就是版本控制。此外，为防止电脑硬盘坏了，我们往往会将重要的文件拷贝到u盘、云端，这就是Git远程库的概念。
-如何安装Git？  通过HomeBrew来安装Git
-Homebrew是一款Mac OS平台下的软件包管理工具，拥有安装、卸载、更新、查看、搜索等很多实用的功能。简单的一条指令，就可以实现包管理，而不用你关心各种依赖和文件路径的情况，十分方便快捷。
- Git命令行 配置git
-$ git config --global user.name &quot;Your Name&quot; $ git config --global user.email &quot;email@example.com&quot;  注意git config命令的&ndash;global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。
-创建git版本库
-$git init 初始化一个git仓库 $git add &lt;file&gt; 添加文件到Git暂存库， $git commit -m &lt;message&gt; 提交到git仓库，并备注。  版本管理
-$git reset --hard commit xxx (HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令) $git log （可以查看提交历史，以便确定要回退到哪个版本） $git reflog （查看命令历史，以便确定要回到未来的哪个版本） $git rm （删除一个文件。如果一个文件已经被提交到版本库，那么你永远不用担心误删，但是要小心，你只能恢复文件到最新版本，你会丢失最近一次提交后你修改的内容）  远程仓库
-$git remote add origin $git@github.
+      本文零基础讲授Git如何安装？ 如何安装Hugo网站开发软件？ 部署到git服务器？购买域名并部署？ 01.Git Git教程-廖雪峰 ( 史上最浅显易懂的Git教程。看过此教程的请忽略以下内容) Git是一个版本控制软件，打个比喻：我们写毕业论文时，不是一次就能写完的，要几周的时间去构思、写框架、增写删改等，正常人都会隔几天就存一个版本，如果哪天不幸删错了重要内容，再找到昨天写的文档上改，这就是版本控制。此外，为防止电脑硬盘坏了，我们往往会将重要的文件拷贝到u盘、云端，这就是Git远程库的概念。
+如何安装Git？  通过HomeBrew来安装Git Homebrew是一款Mac OS平台下的软件包管理工具，拥有安装、卸载、更新、查看、搜索等很多实用的功能。简单的一条指令，就可以实现包管理，而不用你关心各种依赖和文件路径的情况，十分方便快捷。
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Post</span>
+    <h1 class="f3 near-black">
+      <a href="/post/week02/" class="link black dim">
+        Week 02:Final Project磁悬浮时钟构想 
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      先分享一下最近看的资料
+磁流体
+半导体PN结二极管原理讲解 干货
+眼神交互磁流体装置
+我想做什么  产品描述：磁流体电子闹钟 技术点 ：磁流体、机械装置控制运动、电子电路产生电流、3D模型制作、 用户 ：有艺术、科技追求的高端用户 参考： Ferrolic公司全球范围制作24台，每台售价8000$
     </div>
   </div>
 </div>
@@ -164,14 +170,13 @@ $git remote add origin $git@github.
     <span class="f6 db">Post</span>
     <h1 class="f3 near-black">
       <a href="/post/week01/" class="link black dim">
-        Week 01: Final project----Smelly Alarm robots 
+        Week 01: 简书上的MD编辑器 
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       appearance
-function
- release smelly gas make noise associate your weight with robots`s shape u must stand on carpet at least10s.  equipment
- 3D printer: modeling -  
+简书是一款「写作软件」，在诞生之初就支持MarkDown语言，他是「电子邮件」风格的「标记语言」，他有以下优点： - 纯文本编辑，任何编辑器都可以打开编辑。 - 让你专注文字，而不是排版 - 多种格式转化，可转成html、电子书等格式
+- 语法简单，可读性高 #####如何在简书中用MarkDown编辑器 - 注册简书 - 新建文章 - 打开左下角设置，将编辑器设为MarkDown - 点击 文章右侧导航栏中的 预览 图标（如果没有此图标，新建文本再操作） - 编写md语言，并实时预览
     </div>
   </div>
 </div>
